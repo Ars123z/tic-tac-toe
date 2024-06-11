@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:tic-tac-toe": "node dist/tic-tac-toe/server/server.mjs",
-    "install": "npm install --legacy-peer-deps"
+    "install": "npm install --force"
   },
   "private": true,
   "dependencies": {
